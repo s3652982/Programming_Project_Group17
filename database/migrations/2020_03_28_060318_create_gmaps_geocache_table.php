@@ -18,7 +18,9 @@ class CreateGMapsGeoCacheTable extends Migration
             $table->text('address');
             $table->string('latitude');
             $table->string('longitude');
+            $table->integer('numofcar');
             $table->timestamps();
+            
         });
     }
 
